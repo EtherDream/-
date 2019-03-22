@@ -1,4 +1,4 @@
-for f in *; do
+for f in *.{jpg,jpeg,png,gif}; do
   s+="${f%%.*}
 
 ![]($f)
